@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sign in or register</title>
-    <link rel="stylesheet" href="./css/signup.css" />
+    <link rel="stylesheet" href="./css/login.css" />
   </head>
   <body>
     <div id="header">
@@ -23,32 +23,31 @@
         <div id="loginBox">
           <form action="" id="signUp">
             <div id="heading">
-              <p>Create your account</p>
-              <p>Sign in</p>
+              <p>Sign In</p>
             </div>
             <div id="signupData">
-              <input type="text" id="name" placeholder="Nick name" />
-              <p class="afterClick"></p>
               <input type="email" id="email" placeholder="Email address" />
               <p class="afterClick"></p>
               <input type="text" id="password" placeholder="Password" />
               <p class="afterClick"></p>
-              <div id="code">
-                <input type="text" id="inputCode" placeholder="Access code" />
-                <div id="capcha">
-                  <img src="/Images/dummycapcha.jpg" alt="" />
-                </div>
-              </div>
-              <p class="afterClick"></p>
+
               <div id="tAndC">
-                <input type="checkbox" />
-                <p>
-                  I agree to GeekBuying's <a href="#">Terms of Use</a> &
-                  <a href="#">Privacy Policy.</a>
-                </p>
+                <div>
+                  <input type="checkbox" />
+                  <p>Keep me signed in</p>
+                </div>
+                <p><a href="#">Forgot your password?</a></p>
               </div>
 
-              <input type="submit" id="submit" value="Create account" />
+              <input type="submit" id="submit" value="Sign In" />
+              <button id="createAcc">Create a new account</button>
+              <div id="imgOr"><img src="/Images/or.png" alt="" /></div>
+              <div id="loginWithGoogle">
+                <img
+                  src="https://content1.geekbuying.com/V1.4/en/images/footImg/google_mod.png?v=20197"
+                  alt="logoGoogle"
+                />
+              </div>
             </div>
           </form>
         </div>
