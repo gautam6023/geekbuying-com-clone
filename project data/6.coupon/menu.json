@@ -1,0 +1,47 @@
+{
+    "menu":[
+    {
+    "name":"All"
+    },
+    {
+    "name":""
+    },
+    {
+    "name":"Sports & Outdoors",
+    "selection1":"https://img.gkbcdn.com/s3/cim/category-1241.png"
+    },
+    {
+    "name":"Smart Home & Garden",
+    "selection1":"https://img.gkbcdn.com/s3/cim/category-174.png"
+    },
+    {
+    "name":"Consumer Electronics",
+    "selection1":"https://img.gkbcdn.com/s3/cim/category-177.jpg"
+    },
+    {
+    "name":"TV Boxes & Mini PCs",
+    "selection1":"https://img.gkbcdn.com/s3/cim/category-505.png"
+    },
+    {
+    "name":"Computers, Tablets & Accessories",
+    "selection1":"https://img.gkbcdn.com/s3/cim/category-971.jpg"
+    },
+    {
+    "name":"Security Systems",
+    "selection1":"https://img.gkbcdn.com/s3/cim/category-215.png"
+    },
+    {
+    "name":"Wearable Devices",
+    "selection1":"https://img.gkbcdn.com/s3/cim/category-1549.png"
+    },
+    {
+    "name":"Phones & Accessories",
+    "selection1":"https://img.gkbcdn.com/s3/cim/category-178.png"
+    },
+    {
+    "name":"Toys & Hobbies",
+    "selection1":"https://img.gkbcdn.com/s3/cim/category-742.png"
+    }
+    ]
+    }
+    

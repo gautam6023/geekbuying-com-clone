@@ -1,0 +1,69 @@
+{
+    "flashDeals":[
+    {
+    "name":"Super Deals",
+    "url":"https://www.geekbuying.com/deals/",
+    "name_url":"https://www.geekbuying.com/deals/"
+    },
+    {
+    "name":"All Flash Deals",
+    "url":"https://www.geekbuying.com/deals/categorydeals/",
+    "name_url":"https://www.geekbuying.com/deals/categorydeals/"
+    },
+    {
+    "name":"Sports & Outdoors",
+    "url":"https://www.geekbuying.com/deals/categorydeals/?categoryid=1241",
+    "name_url":"https://www.geekbuying.com/deals/categorydeals/?categoryid=1241"
+    },
+    {
+    "name":"Smart Home & Garden",
+    "url":"https://www.geekbuying.com/deals/categorydeals/?categoryid=174",
+    "name_url":"https://www.geekbuying.com/deals/categorydeals/?categoryid=174"
+    },
+    {
+    "name":"Consumer Electronics",
+    "url":"https://www.geekbuying.com/deals/categorydeals/?categoryid=177",
+    "name_url":"https://www.geekbuying.com/deals/categorydeals/?categoryid=177"
+    },
+    {
+    "name":"Phones & Accessories",
+    "url":"https://www.geekbuying.com/deals/categorydeals/?categoryid=178",
+    "name_url":"https://www.geekbuying.com/deals/categorydeals/?categoryid=178"
+    },
+    {
+    "name":"TV Boxes & Mini PCs",
+    "url":"https://www.geekbuying.com/deals/categorydeals/?categoryid=505",
+    "name_url":"https://www.geekbuying.com/deals/categorydeals/?categoryid=505"
+    },
+    {
+    "name":"Computers, Tablets & Accessories",
+    "url":"https://www.geekbuying.com/deals/categorydeals/?categoryid=971",
+    "name_url":"https://www.geekbuying.com/deals/categorydeals/?categoryid=971"
+    },
+    {
+    "name":"Toys & Hobbies",
+    "url":"https://www.geekbuying.com/deals/categorydeals/?categoryid=742",
+    "name_url":"https://www.geekbuying.com/deals/categorydeals/?categoryid=742"
+    },
+    {
+    "name":"Wearable Devices",
+    "url":"https://www.geekbuying.com/deals/categorydeals/?categoryid=1549",
+    "name_url":"https://www.geekbuying.com/deals/categorydeals/?categoryid=1549"
+    },
+    {
+    "name":"Security Systems",
+    "url":"https://www.geekbuying.com/deals/categorydeals/?categoryid=215",
+    "name_url":"https://www.geekbuying.com/deals/categorydeals/?categoryid=215"
+    },
+    {
+    "name":"Automobiles & Motorcycles",
+    "url":"https://www.geekbuying.com/deals/categorydeals/?categoryid=439",
+    "name_url":"https://www.geekbuying.com/deals/categorydeals/?categoryid=439"
+    },
+    {
+    "name":"Fashion",
+    "url":"https://www.geekbuying.com/deals/categorydeals/?categoryid=2060",
+    "name_url":"https://www.geekbuying.com/deals/categorydeals/?categoryid=2060"
+    }
+    ]
+    }
