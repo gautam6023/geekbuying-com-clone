@@ -353,3 +353,5 @@ let topSellers = [
     strkePrice: "₹5495.76",
   },
 ];
+
+localStorage.setItem("topSellers", JSON.stringify(topSellers));
