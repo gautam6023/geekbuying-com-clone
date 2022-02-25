@@ -1,0 +1,226 @@
+*{
+    background-color: whitesmoke;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif !important;
+}
+.main_div{
+    height: 3290px;
+    width: 1068px;
+    margin: auto;
+}
+.brand_select{
+    margin-top: 30px;
+    height: 227.6;
+    width: 1068;
+}
+.brand_select .brand_Leter{
+    display: block;
+    line-height: 40px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+ .brand_pick{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 20px;
+    justify-content: center;
+    text-align: center;     
+ }
+ #avatar {
+    width: 100%;
+    height: 100%;
+  }
+  /* #divAvatar{
+      border: solid 2px black;
+  } */
+
+.featured{
+    margin-top: 30px;
+    height: 1086.4;
+    width: 1068;
+}
+.brand_title1{
+width: 100%;
+height: 34.4px;
+margin: 10px 0;
+display: inline-block;
+font-size: 30px;
+font-weight: bold;
+color: #333;
+text-align: center;
+}
+
+.featuredImg{
+    width: 100%;
+    height: 1032;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding-top: 20px;
+
+}
+ /* #div1Avtar{
+    position: relative; left: 0; top: 0;
+} */
+#avatar1 {
+    width: 100%;
+    height: 100%; 
+    /* position: relative;
+    top: 0;
+    left: 0;   */
+  } 
+  /* #avatar2{
+  position: absolute;
+  top: 400px;
+  left: 200px; }   */
+
+.allbrands{
+    height: 2450px;
+    width: 1068;
+    margin-top: 30px;
+    display: inline-block
+}
+
+.brand_title {
+width: 100%;
+height: 34.4px;
+margin: 10px 0;
+display: inline-block;
+font-size: 30px;
+font-weight: bold;
+color: #333;
+text-align: center;
+/* border: solid 2px red; */
+}
+
+.brand_list{
+    margin-top: 30px;
+    width: 100%;
+    height: 228.8px;
+    /* border: solid 2px red; */
+    /* display: inline; */
+}
+.brand_list_titel{
+    height: 30px;
+    width: 100%;
+    /* border: solid 2px red; */
+    /* display: inline-block; */
+
+}
+.brand_list_titel img {
+width: 24px;
+margin-right: 10px;
+vertical-align: text-bottom;
+display: inline-block;
+}
+.brand_list_titel span {
+font-size: 25px;
+font-weight: bold;
+color: rgb(#333);
+text-align: center;
+display: inline-block
+}
+.brand_Img{
+    width: 100%;
+    height: 154px;
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 20px;
+    /* border: solid 2px red; */
+}
+#avatar3{
+    width: 100%;
+    height: 100%;
+    border: solid 1px rgb(56, 54, 54);
+  }
+  #avatar4{
+    width: 100%;
+    height: 100%;
+    border: solid 1px rgb(56, 54, 54);
+  }
+.allbrands .brands_view {
+margin: 20px auto;
+height: 5px;
+width: 100px;
+color: #074EA3;
+cursor: pointer;
+font-size: 14px;
+text-align: center;
+display: block;
+position: relative;
+}
+#avatar5{
+    width: 100%;
+    height: 100%;
+    border: solid 1px rgb(56, 54, 54);
+  }
+  
+  
+.brand_list1{
+    margin-top: 30px;
+    width: 100%;
+    height: 198.2px;
+    /* border: solid 2px red; */
+    /* display: inline; */
+}
+#avatar6{
+    width: 100%;
+    height: 100%;
+    border: solid 1px rgb(56, 54, 54);
+  }
+#avatar7{
+    width: 100%;
+    height: 100%;
+    border: solid 1px rgb(56, 54, 54);
+  }
+  #avatar8{
+    width: 100%;
+    height: 100%;
+    border: solid 1px rgb(56, 54, 54);
+  }
+  #avatar9{
+    width: 100%;
+    height: 100%;
+    border: solid 1px rgb(56, 54, 54);
+  }
+  #avatar10{
+    width: 100%;
+    height: 100%;
+    border: solid 1px rgb(56, 54, 54);
+  }
+  .brand_list2{
+    margin-top: 30px;
+    width: 100%;
+    height: 108.6px;
+    /* border: solid 2px red; */
+    /* display: inline; */
+}
+.brand_Img1{
+    width: 100%;
+    height: 57px;
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 20px;
+    /* border: solid 2px red; */
+}
+  #avatar11{
+    width: 100%;
+    height: 100%;
+    border: solid 1px rgb(56, 54, 54);
+  }
+  #avatar12{
+    width: 100%;
+    height: 100%;
+    border: solid 1px rgb(56, 54, 54);
+  }
+  #avatar13{
+    width: 100%;
+    height: 100%;
+    border: solid 1px rgb(56, 54, 54);
+  }
