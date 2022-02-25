@@ -1,24 +1,24 @@
 #footer_Container {
-  height: 534.4px;
+  height: 529.4px;
   width: 1519.2px;
   padding: 73px 000;
   position: relative;
   display: block;
-  border: solid 2px red;
+  /* border: solid 2px red; */
 }
 #main_box {
   height: 465.4px;
   width: 1200px;
   margin: 0 160px 0 160px;
   display: block;
-  border: solid 2px red;
+  /* border: solid 2px red; */
 }
 #bootom_img {
   height: 50px;
   width: 1519.2px;
   margin: 20px 0 0 0;
   display: block;
-  border: solid 2px red;
+  /* border: solid 2px red; */
   text-align: center;
   line-height: 30px;
 }
@@ -51,7 +51,7 @@
   text-align: center;
   word-spacing: 0px;
   background-color: #333;
-  border: solid 2px red;
+  /* border: solid 2px red; */
 }
 #serch_box {
   height: 30px;
@@ -94,7 +94,22 @@
   padding: 5px 60px 5px 60px;
   display: inline-block;
   vertical-align: top;
-  border: solid 2px red;
+  /* border: solid 2px red; */
+}
+#footer_serch img {
+  width: 200px;
+}
+#footer_device {
+  height: 35.2px;
+  width: 150px;
+  padding: 5px 60px 0 20px;
+  display: inline-block;
+  vertical-align: top;
+  /* border: solid 2px red; */
+}
+#footer_device img {
+  width: 170px;
+  height: 40.2px;
 }
 #text_box {
   height: 224px;
@@ -102,7 +117,7 @@
   padding: 30px 0 30px 0;
   font-family: "open sans", sans-serif;
   display: inline-block;
-  border: solid 2px red;
+  /* border: solid 2px red; */
 }
 #text_box span {
   font-family: "open sans", sans-serif;
@@ -136,7 +151,7 @@
   padding: 30px 0 0 0;
   float: right;
   display: block;
-  border: solid 2px red;
+  /* border: solid 2px red; */
 }
 #footer_help-sup dl:nth-child(1) {
   height: 175px;
@@ -144,7 +159,7 @@
   padding: 0 10px 0 0;
   float: left;
   display: block;
-  border: solid 2px red;
+  /* border: solid 2px red; */
 }
 #footer_help-sup dl:nth-child(2) {
   height: 199px;
@@ -152,14 +167,14 @@
   padding: 0 10px 0 0;
   float: left;
   display: block;
-  border: solid 2px red;
+  /* border: solid 2px red; */
 }
 #footer_help-sup dl:nth-child(3) {
   height: 151px;
   width: 180px;
   float: left;
   display: block;
-  border: solid 2px red;
+  /* border: solid 2px red; */
 }
 
 #footer_help-sup dt {
@@ -193,13 +208,54 @@
   height: 87.2px;
   width: 1200px;
   display: block;
-  border: solid 2px red;
+  /* border: solid 2px red; */
 }
-
+#footer_popular_search span {
+  font-family: "open sans", sans-serif;
+  text-decoration: none solid rgb(51, 51, 51);
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 20px;
+  word-spacing: 0px;
+  display: inline;
+}
+#popular_search-list {
+  font-family: "open sans", sans-serif;
+  text-decoration: none solid rgb(0, 0, 0);
+  font-size: 0px;
+  height: 35.2px;
+  width: 1149px;
+  padding: 16px 0 16px 0;
+  word-spacing: 0px;
+  display: flex;
+  list-style-type: disc;
+  list-style-position: outside;
+  /* border: solid 2px black; */
+}
+#popular_search-list div {
+  font-family: "open sans", sans-serif;
+  text-decoration: none solid rgb(153, 153, 153);
+  color: #666;
+  background-color: #f1f1f1;
+  font-size: 13px;
+  height: 15.2px;
+  text-align: left;
+  /* width: 118.537px; */
+  margin-right: 15px;
+  padding: 5px 10px 5px 10px;
+  word-spacing: 0px;
+  display: inline-block;
+  list-style-type: none;
+  list-style-position: outside;
+  /* border: solid 2px black; */
+}
 #translate {
   height: 20px;
   width: 1200px;
   padding: 24px 0 0 0;
   display: block;
-  border: solid 2px black;
+  /* border: solid 2px black; */
+}
+#translate div {
+  text-align: center;
 }
