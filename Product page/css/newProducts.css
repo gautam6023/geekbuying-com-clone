@@ -23,7 +23,7 @@ body {
 
 /* Container */
 #conatainer {
-  width: 1500px;
+  width: 75%;
   height: 3611px;
 
   margin: auto;
@@ -71,11 +71,11 @@ body {
 
 #filters {
   width: 100%;
-  height: auto;
+  height: 180px;
 
   box-sizing: border-box;
   padding-top: 15px;
-  padding-bottom: 5px;
+  padding-bottom: 15px;
   padding-left: 15px;
   margin-bottom: 16px;
   background-color: white;
@@ -157,14 +157,13 @@ body {
   width: 100%;
 
   display: grid;
-  grid-template-columns: repeat(5, 230px);
+  grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto;
   gap: 16px;
 }
 
 #products > div {
   position: relative;
-
   box-sizing: border-box;
   padding: 10px;
   background-color: white;

@@ -1,0 +1,27 @@
+/* Navigatin bar */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+#navbar {
+  height: 150px;
+  width: 100%;
+  /* margin-top: -8px;
+    margin-left: -8px; */
+}
+
+#top {
+  height: 36px;
+  background-color: aquamarine;
+}
+
+#search {
+  height: 75px;
+  background-color: blue;
+}
+#catagories {
+  position: relative;
+  height: 40px;
+  background-color: coral;
+}

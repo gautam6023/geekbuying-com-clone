@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Best SellingS-Worldwide Free Shipping</title>
-    <link rel="stylesheet" href="/Product page/css/topP.css" />
+    <link rel="stylesheet" href="./css/topP.css" />
+    <link rel="stylesheet" href="./css/navbar.css" />
     <script
       src="https://kit.fontawesome.com/1c249eb0f3.js"
       crossorigin="anonymous"
@@ -13,9 +14,20 @@
   </head>
   <body>
     <!-- Space for Nav bar -->
-    <h1 style="margin: 0; padding: 0; height: 150px; text-align: center">
+    <!-- <h1 style="margin: 0; padding: 0; height: 150px; text-align: center">
       Hey I am Navbar
-    </h1>
+    </h1> -->
+    <div id="navbar">
+      <div id="top"></div>
+      <div id="search">
+        <a href="./signin.html">Top</a>
+        <a href="./login.html">New</a>
+        <a href="./topP.html">Login</a>
+        <a href="./new.html">Sign in</a>
+      </div>
+      <div id="catagories"></div>
+    </div>
+
     <!-- heading- NEW ARRIVLAS -->
     <div id="headingBg">
       <div id="heading"><p>Bestselling</p></div>
@@ -101,6 +113,10 @@
             <p>Best Match</p>
             <p>New Arrival</p>
             <p>Price</p>
+            <select name="" id="sortByPrice">
+              <option value="">High to Low</option>
+              <option value="">Low to High</option>
+            </select>
           </div>
         </div>
         <div id="products"></div>
@@ -109,5 +125,5 @@
   </body>
 </html>
 
-<script src="/Product page/data/TopData.js"></script>
-<script src="/Product page/script/topP.js"></script>
+<script src="./script/topP.js"></script>
+<script src="./data/TopData.js"></script>

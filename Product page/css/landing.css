@@ -35,7 +35,7 @@ body {
   display: grid;
   grid-template-columns: 1 1fr;
   background-color: #f2f2f2;
-  grid-template-rows: 427px 374px 364px 396px 374px 374px 514px 274px 272px;
+  grid-template-rows: 467px 374px 364px 396px 374px 374px 514px 274px 272px;
 }
 
 #container > div {
@@ -55,10 +55,31 @@ body {
 #cover {
   box-sizing: border-box;
   padding: 20px;
+  display: flex;
 }
 
-#cover > div {
-  background-color: skyblue;
+#slider-container {
+  width: 1090px;
+  height: 422px;
+  border: 1px solid black;
+  margin-right: 16px;
+}
+
+#first {
+  height: 160px;
+  width: 350px;
+  border: 1px solid black;
+  margin-bottom: 18px;
+}
+
+#second {
+  height: 242px;
+  width: 350px;
+  border: 1px solid black;
+}
+
+#first > img,
+#second > img {
   height: 100%;
   width: 100%;
 }
@@ -68,28 +89,24 @@ body {
   padding: 20px;
 }
 
-#con2 > div {
-  background-color: skyblue;
+
+#innerDiv{
   height: 100%;
-  width: 100%;
+  border: 1px solid black;
+  width: 250px;
 }
 
 /* 3rd div */
 #flashDeals {
   box-sizing: border-box;
   padding: 20px;
+  background-color: aqua;
 }
 
-#flashDeals > div {
-  background-color: skyblue;
-  height: 100%;
-  width: 100%;
-}
-
-/* 4rd div */
-#con4 {
-  box-sizing: border-box;
+#flashDeals > div  {
+  position: relative;r-box;
   margin: 20px 0;
+  
 }
 
 #con4 > div {
