@@ -1,0 +1,205 @@
+#footer_Container {
+  height: 534.4px;
+  width: 1519.2px;
+  padding: 73px 000;
+  position: relative;
+  display: block;
+  border: solid 2px red;
+}
+#main_box {
+  height: 465.4px;
+  width: 1200px;
+  margin: 0 160px 0 160px;
+  display: block;
+  border: solid 2px red;
+}
+#bootom_img {
+  height: 50px;
+  width: 1519.2px;
+  margin: 20px 0 0 0;
+  display: block;
+  border: solid 2px red;
+  text-align: center;
+  line-height: 30px;
+}
+#bootom_img img {
+  display: inline-block;
+  height: 32px;
+  width: 962px;
+  line-height: 30px;
+  margin-top: 18px;
+}
+#bootom_img #img2 {
+  display: inline-block;
+  height: 32px;
+  width: 224px;
+  line-height: 30px;
+  margin-top: 18px;
+}
+#copyright {
+  height: 35px;
+  width: 1519.2px;
+  margin: 20px 0 0 0;
+  display: block;
+  /* top: 713.6px;
+  position: fixed; */
+  font-family: "open sans", sans-serif;
+  font-size: 13px;
+  line-height: 35px;
+  text-decoration: none solid rgb(102, 102, 102);
+  color: #666;
+  text-align: center;
+  word-spacing: 0px;
+  background-color: #333;
+  border: solid 2px red;
+}
+#serch_box {
+  height: 30px;
+  width: 366px;
+  border-top: 1px solid #0743a3;
+  border-bottom: 1px solid #0743a3;
+  border-left: 1px solid #0743a3;
+  float: left;
+  display: block;
+  font-family: "open sans", sans-serif;
+  font-size: 12px;
+  text-indent: 10px;
+  word-spacing: 0px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+#serch_box p {
+  margin-top: 5px;
+  color: #757575;
+}
+#subscribe_box {
+  height: 32px;
+  width: 124px;
+  display: inline-block;
+  background-color: #074ea3;
+  color: white;
+  font-family: "open sans", sans-serif;
+  font-size: 14px;
+  line-height: 32px;
+  text-align: center;
+  white-space: pre;
+  word-spacing: 0px;
+  box-sizing: border-box;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+#footer_serch {
+  height: 26px;
+  width: 206px;
+  padding: 5px 60px 5px 60px;
+  display: inline-block;
+  vertical-align: top;
+  border: solid 2px red;
+}
+#text_box {
+  height: 224px;
+  width: 490px;
+  padding: 30px 0 30px 0;
+  font-family: "open sans", sans-serif;
+  display: inline-block;
+  border: solid 2px red;
+}
+#text_box span {
+  font-family: "open sans", sans-serif;
+  text-decoration: none solid rgb(51, 51, 51);
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 18px;
+  word-spacing: 0px;
+  height: 18px;
+  width: 115.562px;
+  padding: 0 0 14px 0;
+  display: inline-block;
+  color: black;
+}
+#text_box p {
+  font-family: "open sans", sans-serif;
+  text-decoration: none solid rgb(102, 102, 102);
+  text-align: left;
+  font-size: 12px;
+  line-height: 24px;
+  word-spacing: 0px;
+  height: 96px;
+  width: 490px;
+  display: block;
+  color: #666;
+}
+
+#footer_help-sup {
+  height: 219px;
+  width: 636px;
+  padding: 30px 0 0 0;
+  float: right;
+  display: block;
+  border: solid 2px red;
+}
+#footer_help-sup dl:nth-child(1) {
+  height: 175px;
+  width: 180px;
+  padding: 0 10px 0 0;
+  float: left;
+  display: block;
+  border: solid 2px red;
+}
+#footer_help-sup dl:nth-child(2) {
+  height: 199px;
+  width: 180px;
+  padding: 0 10px 0 0;
+  float: left;
+  display: block;
+  border: solid 2px red;
+}
+#footer_help-sup dl:nth-child(3) {
+  height: 151px;
+  width: 180px;
+  float: left;
+  display: block;
+  border: solid 2px red;
+}
+
+#footer_help-sup dt {
+  font-family: "open sans", sans-serif;
+  text-decoration: none solid rgb(102, 102, 102);
+  font-size: 12px;
+  line-height: 24px;
+  word-spacing: 0px;
+  height: 24px;
+  width: 180px;
+  display: block;
+  list-style-type: disc;
+  list-style-position: outside;
+}
+#footer_help-sup .nike {
+  font-family: "open sans", sans-serif;
+  text-decoration: none solid rgb(51, 51, 51);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+  word-spacing: 0px;
+  height: 18px;
+  width: 180px;
+  margin: 5px 0 8px 0;
+  display: block;
+  color: black;
+  list-style-type: disc;
+  list-style-position: outside;
+}
+#footer_popular_search {
+  height: 87.2px;
+  width: 1200px;
+  display: block;
+  border: solid 2px red;
+}
+
+#translate {
+  height: 20px;
+  width: 1200px;
+  padding: 24px 0 0 0;
+  display: block;
+  border: solid 2px black;
+}
