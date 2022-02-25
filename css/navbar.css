@@ -1,0 +1,376 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+#navbar {
+  height: auto;
+  width: 100%;
+  margin: auto;
+  font-family: "Open Sans", sans-serif;
+  background-color: white;
+}
+
+hr {
+  margin: 0;
+  border: 0.5px solid #eeeeee;
+}
+/* First NAV */
+#first {
+  margin: auto;
+  height: 36px;
+  display: flex;
+  width: 1500px;
+}
+
+#first > div {
+  height: 100%;
+  width: 50%;
+}
+#first > div:last-child {
+  display: flex;
+  align-content: center;
+}
+#firstUl {
+  list-style: none;
+  display: flex;
+
+  gap: 30px;
+  margin: 0;
+  margin-left: 140px;
+}
+#firstUl > li {
+  display: flex;
+  align-items: center;
+
+  width: auto;
+  font-size: 13px;
+  color: #666666;
+}
+
+#firstUl > li:hover {
+  cursor: pointer;
+}
+
+#mobileIcon {
+  width: 24px;
+  height: auto;
+}
+
+.arrowD {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 10px;
+
+  margin-left: 5px;
+  color: #666666;
+}
+
+/* SECOND NAV */
+#second {
+  height: 76px;
+  display: flex;
+  width: 1500px;
+  margin: auto;
+}
+
+#second > div {
+  height: 100%;
+  width: auto;
+  display: flex;
+  align-items: center;
+}
+
+#logo {
+  height: auto;
+  width: 250px;
+}
+
+#logo > a > img {
+  height: 100%;
+  width: 216px;
+}
+
+#ConForSearch {
+  height: 100%;
+  width: 760px;
+
+  display: flex;
+  align-items: center;
+}
+
+#categories {
+  height: 38px;
+  width: 141px;
+  border: 2px solid #064ea3;
+  border-right: 0;
+  background-color: white;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  color: #666666;
+  box-sizing: border-box;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 14px;
+}
+#categories:hover {
+  cursor: pointer;
+}
+
+#searchProduct {
+  height: 32px;
+  width: 555px;
+  border: 2px solid #064ea3;
+  border-left: 0;
+  text-indent: 15px;
+  color: #666666;
+  font-size: 14px;
+}
+
+#searchbtn {
+  width: 60px;
+  height: 34px;
+  border: 2px solid #064ea3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #064ea3;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+#searchbtn:hover {
+  cursor: pointer;
+}
+#ConForSearch > input:focus,
+#ConForSearch > select:focus {
+  outline: none !important;
+}
+
+#sizeForSearch {
+  font-size: 25px;
+  color: white;
+}
+
+#userUtilites {
+  height: 100%;
+  margin-left: 100px;
+}
+
+#userUL {
+  list-style: none;
+  display: flex;
+
+  gap: 30px;
+}
+#userUtilites > ul > li {
+  color: #333333;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+}
+
+#userUtilites > ul > li > a:hover {
+  color: #064ea3;
+}
+#userUtilites > ul > li > a {
+  text-decoration: none;
+  color: black;
+}
+#btnSignIn {
+  display: flex;
+  align-items: center;
+}
+
+#btnSignIn:hover {
+  cursor: pointer;
+  color: #064ea3;
+}
+
+.iconSize {
+  font-size: 30px;
+  color: #064ea3;
+}
+
+#third {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  width: 1500px;
+  margin: auto;
+}
+#thirdUL {
+  display: flex;
+  list-style: none;
+}
+#thirdUL > li:not(#thirdUL > li:first-child) {
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  align-items: center;
+}
+#thirdUL > li {
+  margin-bottom: 12px;
+}
+
+#thirdUL > li > a:hover {
+  color: #074ea3;
+}
+#thirdUL > li > a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #333333;
+  font-weight: bold;
+}
+
+#thirdUL > li:first-child {
+  font-size: 16px;
+  margin-top: 4px;
+  font-weight: bold;
+  margin-right: 25px;
+  color: #333333;
+}
+.dropbtn:hover {
+  cursor: pointer;
+}
+
+/* saradhi css code */
+
+p > a {
+  color: black;
+  text-decoration: none;
+}
+#headerbg {
+  width: 100%;
+  height: 170px;
+  background-color: white;
+  font-family: sans-serif;
+}
+/* saradhi's css code */
+#dropp {
+  display: flex;
+  width: 70%;
+  height: 50px;
+  margin-left: 150px;
+  margin-right: 105px;
+}
+#dropp > div {
+  margin-left: 30px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.dropbtn {
+  background-color: white;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 250px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  font-weight: normal;
+}
+
+.dropdown-content a {
+  color: black;
+
+  padding: 8px 10px;
+  text-decoration: none;
+  display: block;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* .dropdown:hover .dropbtn {
+  background-color: ;
+} */
+
+/* signin pop up code */
+
+.dropbtn1 {
+  background-color: white;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown1 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-contentt {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 200px;
+  min-height: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-contentt a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+#signinn {
+  padding: 20px;
+}
+.dropbtn1 {
+  font-size: 13px;
+}
+
+.dropdown1:hover .dropdown-contentt {
+  display: block;
+}
+
+.dropdown1:hover .dropbtn {
+  background-color: white;
+}
+
+.buttonsignin {
+  background-color: #ff9c01;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.buttoncreate {
+  background-color: #f0f0f0;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}

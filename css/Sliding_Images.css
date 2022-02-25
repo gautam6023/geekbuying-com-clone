@@ -1,3 +1,39 @@
+#cover {
+  margin: auto;
+  width: 1500px;
+  height: 467px;
+
+  box-sizing: border-box;
+  padding: 20px;
+  display: flex;
+  background-color: white;
+}
+
+#slider-container {
+  width: 1090px;
+  height: 422px;
+
+  margin-right: 16px;
+}
+
+#first {
+  height: 160px;
+  width: 360px;
+
+  margin-bottom: 18px;
+}
+
+#second {
+  height: 242px;
+  width: 360px;
+}
+
+#first > img,
+#second > img {
+  height: 100%;
+  width: 100%;
+}
+
 /* Caption text */
 
 .slideshow-container {
