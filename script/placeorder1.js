@@ -25,5 +25,5 @@ function formSubmit(event) {
 document.querySelector("#placeOrder").addEventListener("click", goToPayement);
 
 function goToPayement() {
-  window.location.href = "payment.html";
+  window.location.href = "/payment.html";
 }
