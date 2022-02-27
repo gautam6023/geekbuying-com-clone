@@ -124,6 +124,7 @@ body {
   border: 1px solid #fdb103;
   color: white;
   box-sizing: border-box;
+  cursor: pointer;
 }
 
 .afterClick {

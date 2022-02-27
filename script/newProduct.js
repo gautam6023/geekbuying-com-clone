@@ -1,9 +1,8 @@
-let productData = JSON.parse(localStorage.getItem("topSellers"));
+let productData = JSON.parse(localStorage.getItem("newArrival"));
 
 displayData(productData);
 function displayData(productData) {
   document.querySelector("#products").innerHTML = "";
-
   productData.map(function (el, i, arr) {
     let perentDiv = document.createElement("div");
     perentDiv.addEventListener("click", function () {
@@ -21,14 +20,14 @@ function displayData(productData) {
     // img.setAttribute("src", el.image_url);
     // img.style.width = "100%";
 
-    // let newImg = document.createElement("img");
-    // newImg.setAttribute(
-    //   "src",
-    //   "https://img.gkbcdn.com/s3/l/label/Label1.png?version=20220111"
-    // );
+    let newImg = document.createElement("img");
+    newImg.setAttribute(
+      "src",
+      "https://img.gkbcdn.com/s3/l/label/Label1.png?version=20220111"
+    );
 
-    // newImg.setAttribute("id", "newImg");
-    // imgDiv.append(newImg);
+    newImg.setAttribute("id", "newImg");
+    imgDiv.append(newImg);
 
     // <---Img container ends
     let div = document.createElement("div");
@@ -46,7 +45,7 @@ function displayData(productData) {
     //
     let strikePrice = document.createElement("p");
     strikePrice.setAttribute("id", "sPrice");
-    let sPrice = el.strkePrice;
+    let sPrice = el.strikePrice;
     if (sPrice != undefined) {
       strikePrice.innerText = sPrice;
     } else {

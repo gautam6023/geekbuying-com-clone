@@ -24,11 +24,12 @@ body {
 /* Container */
 #conatainer {
   width: 75%;
-  height: 3611px;
+  height: auto;
 
   margin: auto;
   margin-top: 16px;
   display: flex;
+  margin-bottom: 30px;
 }
 
 /* 1st child */
@@ -233,6 +234,40 @@ body {
   background-size: contain;
   box-sizing: border-box;
   margin-bottom: 8px;
+}
+
+#sortByPrice {
+  height: 100%;
+  width: auto;
+  font-size: 14px;
+  color: #333333;
+  padding: 0px 15px 0px 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  border: 1px solid #c0c0c0;
+  background-color: white;
+}
+
+#reset {
+  width: 80px;
+  text-align: center;
+  font-size: 14px;
+  margin-left: 4px;
+  margin-right: 4px;
+  height: 100%;
+  background-color: white;
+  border: 1px solid #e0e0e0;
+}
+
+#okk {
+  width: auto;
+  text-align: center;
+  font-size: 14px;
+  margin-left: 4px;
+  margin-right: 4px;
+  height: 33px;
+  background-color: white;
+  border: 1px solid #e0e0e0;
 }
 
 /* All Categories */

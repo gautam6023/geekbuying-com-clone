@@ -4,24 +4,24 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Best SellingS-Worldwide Free Shipping</title>
+    <title>Product Page</title> 
     <link
       rel="shortcut icon"
       href="https://avatars.githubusercontent.com/u/34937151?s=280&v=4"
       type="image/x-icon"
     />
-    <link rel="stylesheet" href="./css/topProducts.css" />
-    <!-- <link rel="stylesheet" href="./css/navbar.css" /> -->
+
+    <link rel="stylesheet" href="./css/productpage.css" />
+    <link rel="stylesheet" href="./css/navbar.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
     <script
       src="https://kit.fontawesome.com/1c249eb0f3.js"
       crossorigin="anonymous"
     ></script>
-
-    <link rel="stylesheet" href="./css/navbar.css" />
-    <link rel="stylesheet" href="./css/footer.css" />
   </head>
   <body>
-    <!-- Space for Nav bar -->
+    <!------------------------------------ Start of The header ---------------------------------------------->
+    <!------------------------------------ Start of The header ---------------------------------------------->
     <div id="navbar">
       <nav id="first">
         <div></div>
@@ -128,104 +128,78 @@
       </nav>
     </div>
     <hr />
-    <!-- heading- BEST SELLERS-->
-    <div id="headingBg">
-      <div id="heading"><p>Bestselling</p></div>
-    </div>
-    <div id="conatainer">
-      <div id="allCategories">
-        <p>All Categories</p>
-
-        <div id="categoreis">
-          <div>
-            <p>Smart Home & Garden</p>
-            <span> <i class="fa-solid fa-angle-down"></i></span>
+    <!--------------------------------- Ending Of header ------------------------------------------------------>
+    <!--------------------------------- Ending Of header ------------------------------------------------------>
+    <div id="container">
+      <div id="leftcontainer"></div>
+      <div id="rightcontainer">
+        <div id="inrightcontainer"></div>
+        <div id="inrightcontainer1">
+          <div id="flashbar">
+            <p>Flash Deals</p>
+            <p>Ends in 1 Days 18: 00: 00</p>
           </div>
-          <div>
-            <p>Consumer Electronics</p>
-            <span><i class="fa-solid fa-angle-down"></i></span>
+          <div id="pricecolumn"></div>
+          <span>5%off Exclusive app price!</span>
+          <div class="flexmode coupons">
+            <p>Coupon:</p>
+            <p>2% OFF New User</p>
+            <a href="#">Get Coupons</a>
           </div>
-          <div>
-            <p>Wearable Devices</p>
-            <span><i class="fa-solid fa-angle-down"></i></span>
+        </div>
+        <div class="inrightcontainer2">
+          <div class="flexmode">
+            <p>Ship from:</p>
+            <p class="boxmode">China</p>
           </div>
-          <div>
-            <p>Sports & Outdoors</p>
-            <span><i class="fa-solid fa-angle-down"></i></span>
+          <div class="flexmode">
+            <p>QTY:</p>
+            <div class="qtymode">
+              <p class="boxmode">-</p>
+              <p class="boxmode">1</p>
+              <p class="boxmode">+</p>
+            </div>
           </div>
-          <div>
-            <p>Toys & Hobbies</p>
-            <span><i class="fa-solid fa-angle-down"></i></span>
+          <div class="flexmode">
+            <p>Shipping:</p>
+            <p>Shipping to India</p>
           </div>
-          <div>
-            <p>Computers, Tablets & Accessories</p>
-            <span><i class="fa-solid fa-angle-down"></i></span>
+          <div class="buyinfo">
+            <button>BUY NOW</button>
+            <button id="addToCart">Add to Cart</button>
+            <p>Add to Wishlist(1)</p>
           </div>
-          <div>
-            <p>Phones & Accessories</p>
-            <span><i class="fa-solid fa-angle-down"></i></span>
+          <div class="flexmode paymentimg">
+            <p>Payment:</p>
+            <img
+              src="https://content1.geekbuying.com/V1.4/en/images/cartImg/paypal.jpg?v=20220111"
+              alt="Paypal"
+            />
           </div>
-          <div>
-            <p>Fashion</p>
-            <span><i class="fa-solid fa-angle-down"></i></span>
-          </div>
-          <div>
-            <p>TV Boxes & Mini PCs</p>
-            <span><i class="fa-solid fa-angle-down"></i></span>
+          <div class="flexmode">
+            <div class="flexmode">
+              <p>Price Match</p>
+            </div>
+            <div class="flexmode">
+              <p>Dropshipping Download</p>
+            </div>
+            <div class="flexmode">
+              <p>Bulk Order Rebate</p>
+            </div>
           </div>
         </div>
       </div>
-      <div id="productDetails">
-        <div id="filters">
-          <div id="secondRow">
-            <p>Filter :</p>
-            <select name="" id="country">
-              <option value="">Ship From</option>
-              <option value="">Netherland</option>
-              <option value="">Europe</option>
-              <option value="">Poland</option>
-              <option value="">Germany</option>
-              <option value="">Spain</option>
-              <option value="">United States</option>
-              <option value="">United Kingdom</option>
-              <option value="">China</option>
-              <option value="">Russian Federation</option>
-              <option value="">Canada</option>
-              <option value="">Japan</option>
-            </select>
-            <div class="flex" id="checkbox1">
-              <input type="checkbox" />
-              <p>On Sale</p>
-            </div>
-            <div class="flex" id="c2">
-              <input type="checkbox" />
-              <p>Free Shipping only</p>
-            </div>
-            <div class="flex">
-              <p>Price :</p>
-              <input type="number" placeholder="Min" class="minmax" />
-              <p>-</p>
-              <input type="number" placeholder="Max" class="minmax" />
-              <button id="okk">OK</button>
-            </div>
-          </div>
-          <div id="firstRow">
-            <p>Sort By :</p>
-            <p onclick="sortByName()">Best Match</p>
-            <p>New Arrival</p>
-            <p>Price</p>
-            <select name="" id="sortByPrice" onchange="priceSortFun()">
-              <option value="empty">Sort by price</option>
-              <option value="phl">High to Low</option>
-              <option value="plh">Low to High</option>
-            </select>
-            <button id="reset" onclick="pageReloadFun()">Reset</button>
-          </div>
-        </div>
-        <div id="products"></div>
+    </div>
+    <div id="container4">
+      <div id="innerdiv4">
+        <h2>Recommendations for you</h2>
+      </div>
+      <div id="innercontainer4">
+        <button class="prev fade" onclick="slide1Fun(-1)"><</button>
+        <button class="next fade" onclick="slide1Fun(1)">></button>
       </div>
     </div>
-    <!-- Footer strats -->
+    <!-- Footer -->
     <div id="footer_Container">
       <div id="main_box">
         <div id="serch_box">
@@ -316,9 +290,6 @@
         />
       </div>
     </div>
-    <!-- Footer Ends -->
   </body>
 </html>
-
-<script src="./data/TopData.js"></script>
-<script src="./script/topP.js"></script>
+<script src="./script/productpage.js"></script>

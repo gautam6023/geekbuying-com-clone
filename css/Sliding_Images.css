@@ -2,6 +2,7 @@
   margin: auto;
   width: 1500px;
   height: 467px;
+  cursor: pointer;
 
   box-sizing: border-box;
   padding: 20px;
@@ -16,20 +17,20 @@
   margin-right: 16px;
 }
 
-#first {
+#first1 {
   height: 160px;
   width: 360px;
 
   margin-bottom: 18px;
 }
 
-#second {
+#second2 {
   height: 242px;
   width: 360px;
 }
 
-#first > img,
-#second > img {
+#first1 > img,
+#second2 > img {
   height: 100%;
   width: 100%;
 }

@@ -10,12 +10,24 @@ body {
   margin: auto;
   justify-content: space-between;
   /* border: 1px solid red; */
+  cursor: pointer;
 }
 #show1 > div {
-  border-top: 4px solid blue;
   text-align: center;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   background-color: white;
+}
+#show1 > div:first-child {
+  border-top: 4px solid blue;
+}
+#show1 > div:nth-child(2) {
+  border-top: 4px solid #e98d82;
+}
+#show1 > div:nth-child(3) {
+  border-top: 4px solid #548f1b;
+}
+#show1 > div:nth-child(4) {
+  border-top: 4px solid #e98d82;
 }
 .dimOfImage {
   height: 75%;
@@ -24,9 +36,9 @@ body {
 }
 
 .dimOfImage:hover {
-  height: 76%;
-  width: 76%;
-  transition: 0.1s;
+  height: 77%;
+  width: 77%;
+  transition: 0.2s;
 }
 /* #show1 >div>a > img:hover{
      -webkit-transition: transform .3s ease;
@@ -54,6 +66,7 @@ body {
   margin-bottom: 14px;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   background-color: white;
+  cursor: pointer;
 }
 #flashdeals {
   display: flex;
@@ -63,6 +76,7 @@ body {
   font-weight: bold;
   justify-content: center;
   margin-bottom: 7px;
+  cursor: pointer;
 }
 
 #flashIcon {
@@ -131,6 +145,7 @@ body {
   justify-content: space-between;
   margin: auto;
   text-align: center;
+  cursor: pointer;
 }
 #container3 > div {
   /* border: 1px solid green; */
@@ -188,6 +203,7 @@ body {
   box-sizing: border-box;
   padding: 20px;
   position: relative;
+  cursor: pointer;
 
   background-color: white;
 }
@@ -287,6 +303,7 @@ body {
   box-sizing: border-box;
   padding: 20px;
   position: relative;
+  cursor: pointer;
 
   background-color: white;
 }
@@ -357,6 +374,7 @@ body {
   box-sizing: border-box;
   padding: 20px;
   margin: 14px auto;
+  cursor: pointer;
   /* border: 1px solid red; */
 
   background-color: white;
@@ -413,6 +431,7 @@ body {
   box-sizing: border-box;
   padding: 20px;
   position: relative;
+  cursor: pointer;
 
   background-color: white;
 }
@@ -486,6 +505,7 @@ body {
   /* border: 1px solid red; */
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   background-color: white;
+  cursor: pointer;
 }
 #innerdiv8 {
   display: flex;

@@ -1,10 +1,10 @@
-var page1 = JSON.parse(localStorage.getItem("page1")) || [];
+var page1 = JSON.parse(localStorage.getItem("page1"));
 function page1Fun() {
   page1.map(function (el) {
     var divTag = document.createElement("div");
     var name = document.createElement("h3");
     var aTag1 = document.createElement("a");
-    aTag1.setAttribute("href", el.url);
+    // aTag1.setAttribute("href", el.url);
     aTag1.setAttribute("class", "dimOfName");
     aTag1.innerText = el.name;
     name.append(aTag1);
@@ -14,13 +14,13 @@ function page1Fun() {
     imgTag.setAttribute("src", el.selection1);
     imgTag.setAttribute("class", "dimOfImage");
     aTag2.append(imgTag);
-    divTag.append(name, aTag2);
+    divTag.append(name, imgTag);
     document.querySelector("#show1").append(divTag);
   });
 }
 page1Fun();
 
-var container2Data = JSON.parse(localStorage.getItem("page2")) || [];
+var container2Data = JSON.parse(localStorage.getItem("page2"));
 function container2Fun() {
   container2Data.map(function (el) {
     var divTag = document.createElement("div");
@@ -46,7 +46,7 @@ function container2Fun() {
 }
 
 container2Fun();
-var container3Data = JSON.parse(localStorage.getItem("container3")) || [];
+var container3Data = JSON.parse(localStorage.getItem("container3"));
 
 function container3Fun() {
   container3Data.map(function (el) {
@@ -71,7 +71,7 @@ function container3Fun() {
 }
 container3Fun();
 
-var container4Data = JSON.parse(localStorage.getItem("container4")) || [];
+var container4Data = JSON.parse(localStorage.getItem("container4"));
 
 function container4Fun() {
   container4Data.map(function (el) {
@@ -115,6 +115,7 @@ function slide1Fun(index) {
     "translateX(-3000%)",
     "translateX(-3500%)",
     "translateX(-4000%)",
+    "translateX(-4500%)",
   ];
   var arr2 = [
     "translateX(0%)",
@@ -127,6 +128,13 @@ function slide1Fun(index) {
     "translateX(-3000%)",
     "translateX(-3500%)",
   ];
+  if (count1 > arr.length) {
+    count1 = arr.length;
+  }
+  if (count1 < 0) {
+    count1 = 0;
+  }
+
   console.log(index);
   if (index > 0) {
     for (var i = 0; i < slides.length; i++) {
@@ -172,7 +180,7 @@ function hidebuttonsFun(event) {
   event.target.firstElementChild.classList.add("class", "fade");
 }
 
-var container5Data = JSON.parse(localStorage.getItem("container5")) || [];
+var container5Data = JSON.parse(localStorage.getItem("container5"));
 
 function container5Fun() {
   container5Data.map(function (el) {
@@ -213,6 +221,7 @@ function slide2Fun(index) {
     "translateX(-3000%)",
     "translateX(-3500%)",
     "translateX(-4000%)",
+    "translateX(-4300%)",
   ];
   var arr4 = [
     "translateX(0%)",
@@ -226,6 +235,13 @@ function slide2Fun(index) {
     "translateX(-3500%)",
   ];
   console.log(index);
+  if (count2 > arr3.length) {
+    count2 = arr3.length;
+  }
+  if (count2 < 0) {
+    count2 = 0;
+  }
+
   if (index > 0) {
     for (var i = 0; i < slides2.length; i++) {
       slides2[i].style.transform = arr3[count2];
@@ -240,7 +256,7 @@ function slide2Fun(index) {
   }
 }
 
-var container6Data = JSON.parse(localStorage.getItem("container6")) || [];
+var container6Data = JSON.parse(localStorage.getItem("container6"));
 
 function container6Fun() {
   container6Data.map(function (el) {
@@ -278,7 +294,7 @@ function container6Fun() {
 
 container6Fun();
 
-var container7Data = JSON.parse(localStorage.getItem("container7")) || [];
+var container7Data = JSON.parse(localStorage.getItem("container7"));
 function container7Fun() {
   container7Data.map(function (el) {
     var divTag = document.createElement("div");
@@ -305,6 +321,12 @@ var count3 = 0;
 function slide3Fun(index) {
   var arr5 = ["translateX(-500%)", "translateX(-1000%)"];
   var arr6 = ["translateX(0%)", "translateX(0%)", "translateX(-500%)"];
+  if (count3 > arr5.length) {
+    count3 = arr5.length;
+  }
+  if (count3 < 0) {
+    count3 = 0;
+  }
   if (index > 0) {
     for (var i = 0; i < slides3.length; i++) {
       slides3[i].style.transform = arr5[count3];
@@ -319,7 +341,7 @@ function slide3Fun(index) {
   }
 }
 
-var container8Data = JSON.parse(localStorage.getItem("container8")) || [];
+var container8Data = JSON.parse(localStorage.getItem("container8"));
 function container8Fun() {
   container8Data.map(function (el) {
     var divTag = document.createElement("div");
@@ -336,8 +358,15 @@ container8Fun();
 var slides4 = document.querySelectorAll("#innercontainer8>div");
 var count4 = 0;
 function slide4Fun(index) {
-  var arr7 = ["translateX(-800%)", "translateX(-1600%)"];
+  var arr7 = ["translateX(-800%)", "translateX(-1000%)"];
   var arr8 = ["translateX(0%)", "translateX(0%)", "translateX(-800%)"];
+  if (count4 > arr7.length) {
+    count4 = arr7.length;
+  }
+  if (count4 < 0) {
+    count4 = 0;
+  }
+
   if (index > 0) {
     for (var i = 0; i < slides4.length; i++) {
       slides4[i].style.transform = arr7[count4];
