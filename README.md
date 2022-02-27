@@ -1,6 +1,6 @@
 
 # Clone of Geekbyuing.com
-This was our project for Unit-2 Construct week at Masai Scool.
+This was our project for Unit-2 Construct week at Masai Shcool.
 Our target was to complete all main functionality of e-commerce website have, such as sing up to till to the byuing of a product.
 We have completed this project in 5 days.
 
