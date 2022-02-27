@@ -263,6 +263,7 @@
         window.location.href = "success.html";
     }
 
-    var totalCartValue = JSON.parse(localStorage.getItem(totalCartValue))
-    document.querySelector("#cartValue>p:last-child").innerText = totalCartValue;
+    var totalCartValue = JSON.parse(localStorage.getItem(TotalPrice))
+    document.querySelector("#cartValue>p:last-child").innerText = totalCartValue.Total;
 </script>
+
