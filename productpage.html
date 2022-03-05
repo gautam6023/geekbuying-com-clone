@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Page</title> 
+    <link
+      rel="shortcut icon"
+      href="https://avatars.githubusercontent.com/u/34937151?s=280&v=4"
+      type="image/x-icon"
+    />
+
+    <link rel="stylesheet" href="./css/productpage.css" />
+    <link rel="stylesheet" href="./css/navbar.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <script
+      src="https://kit.fontawesome.com/1c249eb0f3.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!------------------------------------ Start of The header ---------------------------------------------->
+    <!------------------------------------ Start of The header ---------------------------------------------->
+    <div id="navbar">
+      <nav id="first">
+        <div></div>
+        <div>
+          <ul id="firstUl">
+            <li>
+              <span id="mobileIcon"
+                ><i class="fa-solid fa-mobile fa-2x"></i
+              ></span>
+              Save BIG with our app!
+              <span class="arrowD"><i class="fa-solid fa-angle-down"></i></span>
+            </li>
+            <li>Language</li>
+            <li>
+              Ship/INR
+              <span class="arrowD"><i class="fa-solid fa-angle-down"></i></span>
+            </li>
+            <li>
+              Support Center
+              <span class="arrowD"><i class="fa-solid fa-angle-down"></i></span>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <hr />
+      <nav id="second">
+        <div id="searchLogo">
+          <div id="logo">
+            
+           <a href="./index.html"> <img
+              src="https://content1.geekbuying.com/V1.4/en/images/index_images/new_geekbuy.png"
+              alt=""
+            /></a>
+          </div>
+          <div id="ConForSearch">
+            <select name="" id="categories">
+              <option value="">All Categories</option>
+            </select>
+
+            <input
+              type="text"
+              id="searchProduct"
+              placeholder="Search by key words"
+            />
+            <div id="searchbtn">
+              <span id="sizeForSearch"
+                ><i class="fa-solid fa-magnifying-glass"></i
+              ></span>
+            </div>
+          </div>
+        </div>
+        <div id="userUtilites">
+          <ul id="userUL">
+            <li>
+              <div class="dropdown1">
+                <button class="dropbtn1" id="btnSignIn"><span class="iconSize"><i class="fa-regular fa-user"></i></span>
+                 <p> Sign in</p></button>
+                <div class="dropdown-contentt">
+                  <div id="signinn"><p>Welcome to Geekbuying</p>
+                  <a href="./login.html" class="buttonsignin">Sign in</a><br>
+                  <a href="./signup.html" class="buttoncreate">Create an account</a>
+                  </div>
+                </div>
+              </div> 
+            </li>
+            <li>
+              <span class="iconSize"><i class="fa-regular fa-heart"></i></span>
+            <a href="#"> Wishlist</a>
+            </li>
+            <li>
+              <span class="iconSize"
+                ><i class="fa-solid fa-cart-shopping"></i
+              ></span>
+              <a href="./cart.html"> Cart</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <nav id="third">
+        <ul id="thirdUL">
+          <li> <div class="dropdown">
+            <button class="dropbtn">Shop all categories <i class="fa fa-caret-down"></i></button>
+            <div class="dropdown-content">
+              <a href="#">Local Warehouses</a>
+              <a href="#">Smart home & Garden</a>
+              <a href="#">Sports & Outdoors</a>
+              <a href="#">Consumer Electronics</a>
+              <a href="#">TV Boxes & Mini PC</a>
+              <a href="#">Computers, Tablets 7 Accesories</a>
+              <a href="#">Toys & Hobbies</a>
+              <a href="#">Phone & Accesories</a>
+              <a href="#">Automobiles & Motorcycles</a>
+              <a href="#">Wearable Devices</a>
+              <a href="#">Security Systems</a>
+              <a href="#">Fashion</a>
+            </div></li>
+          <li><a href="./newProducts.html">New</a></li>
+          <li><a href="./topProducts.html">Top seller</a></li>
+          <li><a href="./brand.html">Brand</a></li>
+          <li><a href="#">Clearance</a></li>
+          <li><a href="#">Deals</a></li>
+          <li><a href="#">Coupon</a></li>
+        </ul>
+      </nav>
+    </div>
+    <hr />
+    <!--------------------------------- Ending Of header ------------------------------------------------------>
+    <!--------------------------------- Ending Of header ------------------------------------------------------>
+    <div id="container">
+      <div id="leftcontainer"></div>
+      <div id="rightcontainer">
+        <div id="inrightcontainer"></div>
+        <div id="inrightcontainer1">
+          <div id="flashbar">
+            <p>Flash Deals</p>
+            <p>Ends in 1 Days 18: 00: 00</p>
+          </div>
+          <div id="pricecolumn"></div>
+          <span>5%off Exclusive app price!</span>
+          <div class="flexmode coupons">
+            <p>Coupon:</p>
+            <p>2% OFF New User</p>
+            <a href="#">Get Coupons</a>
+          </div>
+        </div>
+        <div class="inrightcontainer2">
+          <div class="flexmode">
+            <p>Ship from:</p>
+            <p class="boxmode">China</p>
+          </div>
+          <div class="flexmode">
+            <p>QTY:</p>
+            <div class="qtymode">
+              <p class="boxmode">-</p>
+              <p class="boxmode">1</p>
+              <p class="boxmode">+</p>
+            </div>
+          </div>
+          <div class="flexmode">
+            <p>Shipping:</p>
+            <p>Shipping to India</p>
+          </div>
+          <div class="buyinfo">
+            <button>BUY NOW</button>
+            <button id="addToCart">Add to Cart</button>
+            <p>Add to Wishlist(1)</p>
+          </div>
+          <div class="flexmode paymentimg">
+            <p>Payment:</p>
+            <img
+              src="https://content1.geekbuying.com/V1.4/en/images/cartImg/paypal.jpg?v=20220111"
+              alt="Paypal"
+            />
+          </div>
+          <div class="flexmode">
+            <div class="flexmode">
+              <p>Price Match</p>
+            </div>
+            <div class="flexmode">
+              <p>Dropshipping Download</p>
+            </div>
+            <div class="flexmode">
+              <p>Bulk Order Rebate</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="container4">
+      <div id="innerdiv4">
+        <h2>Recommendations for you</h2>
+      </div>
+      <div id="innercontainer4">
+        <button class="prev fade" onclick="slide1Fun(-1)"><</button>
+        <button class="next fade" onclick="slide1Fun(1)">></button>
+      </div>
+    </div>
+    <!-- Footer -->
+    <div id="footer_Container">
+      <div id="main_box">
+        <div id="serch_box">
+          <p>Enter email to get a 5% off coupon</p>
+        </div>
+        <div id="subscribe_box">subscribe</div>
+        <div id="footer_serch">
+          <img src="./Images/social.png" alt="" />
+        </div>
+        <div id="footer_device">
+          <img src="./Images/device.png" alt="" />
+        </div>
+        <div id="text_box">
+          <span>About Geekbuying</span>
+          <p>
+            We at Geekbuying are all about making our customers' lives
+            comfortable and smarter. We have a massive selection of products and
+            offer unbeatable prices. If you are looking for the latest and the
+            greatest product in categories like smart home and outdoor gadgets,
+            Geekbuying is where you should be!
+          </p>
+          <p>
+            Geekbuying is the ultimate shopping hub for new releases covering
+            smart home products like vacuum cleaners, fitness equipment like
+            treadmills, top of the line home and office furniture, outdoor items
+            including e-bikes, scooters, and other consumer goods like TV boxes,
+            RC Toys and so much more! Shop for your favorite brands and products
+            today!
+          </p>
+        </div>
+        <div id="footer_help-sup">
+          <dl id="help ">
+            <dt class="nike">Help</dt>
+            <dt>Order status</dt>
+            <dt>About us</dt>
+            <dt>Contact us</dt>
+            <dt>Warranty</dt>
+            <dt>FAQs</dt>
+            <dt>Sitemap</dt>
+          </dl>
+          <dl id="support">
+            <dt class="nike">Support</dt>
+            <dt>Payment information</dt>
+            <dt>Shipping guide</dt>
+            <dt>Wholesale</dt>
+            <dt>Affiliates</dt>
+            <dt>Student discount</dt>
+            <dt>Youth discount</dt>
+            <dt>Request a sample</dt>
+          </dl>
+          <dl id="pro">
+            <dt class="nike">Policies</dt>
+            <dt>Terms & conditions</dt>
+            <dt>Return policy</dt>
+            <dt>Privacy</dt>
+            <dt>Declaration</dt>
+            <dt>Customs</dt>
+          </dl>
+        </div>
+        <div id="footer_popular_search">
+          <span>Popular Searches</span>
+          <div id="popular_search-list">
+            <div>Geekbuying</div>
+            <div>Roborrock Q7 Max</div>
+            <div>Tronsmart Bluetoot Speekar</div>
+            <div>Windose MIni PC</div>
+            <div>android tv boxes</div>
+            <div>LDS Robot Vacuum</div>
+            <div>Electric Bike</div>
+            <div>Onex Player mini Amd</div>
+          </div>
+        </div>
+        <div id="translate">
+          <div>
+            English | Español | Français | Deutsch | Italiano | Português |
+            Nederlands | Polski | Pyccкий | Türkçe | ελληνικά | Magyar | لعربية
+            | עברית | ไทย | 日本語
+          </div>
+        </div>
+      </div>
+      <div id="bootom_img">
+        <img
+          src="//content1.geekbuying.com/V1.4/en/images/index_images/footicons.jpg"
+        />
+        <img
+          id="img2"
+          src="//content1.geekbuying.com/V1.4/en/images/index_images/geek_reviews.jpg?v=20220111"
+        />
+      </div>
+    </div>
+  </body>
+</html>
+<script src="./script/productpage.js"></script>
