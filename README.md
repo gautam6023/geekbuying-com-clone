@@ -4,7 +4,7 @@ This was our project for Unit-2 Construct week at Masai Shcool.
 Our target was to complete all main functionality of e-commerce website have, such as sing up to till to the byuing of a product.
 We have completed this project in 5 days.
 
-- [Click here](https://condescending-liskov-29c836.netlify.app/index.html) to see preview of our project.
+- [Click here](https://spontaneous-mandazi-279e9e.netlify.app/index.html) to see preview of our project.
 
 Geekbyuing.com is leading E-Commerce website for smart electronics gadgets.
 
