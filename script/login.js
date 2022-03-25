@@ -23,7 +23,7 @@ function formSubmit(event) {
 
   if (flag > 0) {
     alert("Login success");
-    window.location.href = "home.html";
+    window.location.href = "index.html";
   } else {
     alert("Login Failed");
     window.location.href = "login.html";
