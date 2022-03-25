@@ -51,23 +51,15 @@ function displayData(cartArr) {
     btn.innerText = "Delete";
     col7.append(btn);
 
+    btn.addEventListener("click", () => {
+      deleteItem(index);
+    });
+
     row.setAttribute("class", "spaceBetweenTd");
     row.append(div, col1, col2, col3, col6, col7);
     document.querySelector("#body").append(row);
   });
 }
-
-// function Admit(elem) {
-//   console.log(elem);
-//   admitted.push(elem);
-//   localStorage.setItem("admitted", JSON.stringify(admitted));
-// }
-
-// function Reject(elem) {
-//   console.log(elem);
-//   rejected.push(elem);
-//   localStorage.setItem("rejected", JSON.stringify(rejected));
-// }
 
 showTotal();
 function incQuant(index) {
@@ -106,23 +98,13 @@ function showTotal() {
   localStorage.setItem("TotalValue", JSON.stringify(Math.floor(total)));
   // document.querySelector("#totalCount").innerText = total;
 }
-// function unitO(elem) {
-//   let price = elem.price;
-//   price = price.split("");
-//   price[0] = 0;
-//   price = price.join("");
-//   price = parseFloat(price);
-//   totalP = price * elem.quantity;
 
-//   console.log(totalP);
-//   // document.querySelector("#totalQP").innerText = totalP;
-
-//   let price1 = document.querySelector("#totalQP").innerText;
-//   event.price1 = totalP;
-//   // Number(elem.price.substring(1)) * document.querySelector("#qunt").innerText;
-//   // displayData(cartArr);
-// }
-
+function deleteItem(index) {
+  cartArr.splice(index, 1);
+  localStorage.setItem("cartData", JSON.stringify(cartArr));
+  displayData(cartArr);
+  showTotal();
+}
 document.querySelector("#logoClick").addEventListener("click", function () {
   window.location.href = "index.html";
 });
