@@ -25,7 +25,7 @@ function formSubmit(event) {
     alert("Login success");
     window.location.href = "index.html";
   } else {
-    alert("Login Failed");
+    alert("Invalide Credentials");
     window.location.href = "login.html";
   }
 }
