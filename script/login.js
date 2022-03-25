@@ -1,4 +1,4 @@
-var regusers = JSON.parse(localStorage.getItem("signupDataBase"));
+var regusers = JSON.parse(localStorage.getItem("signupDataBase")) || [];
 console.log(regusers);
 
 document.querySelector("#login").addEventListener("submit", formSubmit);
