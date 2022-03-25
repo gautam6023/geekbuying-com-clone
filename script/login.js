@@ -33,6 +33,6 @@ function formSubmit(event) {
 document.querySelector("#createAcc").addEventListener("click", function () {
   window.location.href = "signup.html";
 });
-document.querySelector("#submit").addEventListener("click", function () {
-  window.location.href = "index.html";
-});
+// document.querySelector("#submit").addEventListener("click", function () {
+//   window.location.href = "index.html";
+// });
