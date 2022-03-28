@@ -22,7 +22,7 @@ function formSubmit(event) {
   }
 
   if (flag > 0) {
-    alert("Login success");
+    alert("Login successfull");
     window.location.href = "index.html";
   } else {
     alert("Invalide Credentials");
