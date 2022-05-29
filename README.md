@@ -6,7 +6,7 @@ We have completed this project in 5 days.
 
 - [Click here](https://spontaneous-mandazi-279e9e.netlify.app/index.html) to see preview of our project.
 
-Geekbyuing.com is leading E-Commerce website for smart electronics gadgets.
+Geekbyuing.com is leading E-Commerce web application which provides large range of electronics and smart gadgets.
 
 
 
